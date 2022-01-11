@@ -44,6 +44,7 @@ public class Message {
         this.id = id;
     }
 
+
     public Timestamp getCreated_at() {
         return created_at;
     }
@@ -59,6 +60,7 @@ public class Message {
     public void setUpdated_at(Timestamp updated_at) {
         this.updated_at = updated_at;
     }
+
     public String getContent() {
         return content;
     }
